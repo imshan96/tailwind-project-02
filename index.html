@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="min-h-screen">
+    <div
+      class="text-white bg-[url('images/hero.jpg')] bg-cover bg-gray-600 bg-blend-multiply"
+    >
+      <header>
+        <!-- HEADER-CONTAINER -->
+        <div class="max-w-5xl mx-auto w-11/12">
+          <div class="min-h-[10vh] py-2 flex justify-between items-center">
+            <!-- LOGO -->
+            <a
+              href="index.html"
+              class="flex text-2xl items-center gap-2 font-bold"
+            >
+              <i class="fa-solid fa-graduation-cap text-blue-700"></i>Educare</a
+            >
+            <!-- MENU-ICON -->
+            <i
+              class="menu fa-solid fa-bars cursor-pointer text-2xl md:hidden"
+            ></i>
+            <!-- NAV-BAR -->
+            <nav
+              class="fixed z-50 top-0 transition duration-500 h-screen bg-blue-800 w-1/2 -right-full md:static md:-right-0 md:h-auto md:w-auto md:z-auto md:transition-none md:bg-transparent"
+            >
+              <!-- CLOSE-ICON -->
+              <i
+                class="close fa-regular fa-circle-xmark cursor-pointer float-right text-2xl m-4 mr-6 md:hidden"
+              ></i>
+              <ul class="mt-28 md:mt-auto md:flex md:gap-5">
+                <li>
+                  <a
+                    class="block pl-6 py-2 transition duration-500 hover:bg-blue-300 md:transition-none md:pl-0 md:py-0 md:inline-block md:relative md:after:content-[''] md:after:absolute md:after:w-0 md:after:h-1 md:after:bg-white md:after:left-1/2 md:after:-bottom-2 md:after:-translate-x-1/2 md:after:duration-500 md:after:hover:w-full md:hover:bg-transparent"
+                    href=""
+                    >HOME</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="block pl-6 py-2 transition duration-500 hover:bg-blue-300 md:transition-none md:pl-0 md:py-0 md:inline-block md:relative md:after:content-[''] md:after:absolute md:after:w-0 md:after:h-1 md:after:bg-white md:after:left-1/2 md:after:-bottom-2 md:after:-translate-x-1/2 md:after:duration-500 md:after:hover:w-full md:hover:bg-transparent"
+                    href=""
+                    >ABOUT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="block pl-6 py-2 transition duration-500 hover:bg-blue-300 md:transition-none md:pl-0 md:py-0 md:inline-block md:relative md:after:content-[''] md:after:absolute md:after:w-0 md:after:h-1 md:after:bg-white md:after:left-1/2 md:after:-bottom-2 md:after:-translate-x-1/2 md:after:duration-500 md:after:hover:w-full md:hover:bg-transparent"
+                    href=""
+                    >COURSE</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="block pl-6 py-2 transition duration-500 hover:bg-blue-300 md:transition-none md:pl-0 md:py-0 md:inline-block md:relative md:after:content-[''] md:after:absolute md:after:w-0 md:after:h-1 md:after:bg-white md:after:left-1/2 md:after:-bottom-2 md:after:-translate-x-1/2 md:after:duration-500 md:after:hover:w-full md:hover:bg-transparent"
+                    href=""
+                    >BLOG</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="block pl-6 py-2 transition duration-500 hover:bg-blue-300 md:transition-none md:pl-0 md:py-0 md:inline-block md:relative md:after:content-[''] md:after:absolute md:after:w-0 md:after:h-1 md:after:bg-white md:after:left-1/2 md:after:-bottom-2 md:after:-translate-x-1/2 md:after:duration-500 md:after:hover:w-full md:hover:bg-transparent"
+                    href=""
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- HERO-SECTION -->
+      <section>
+        <!-- SECTION-CONTAINER -->
+        <div class="max-w-5xl mx-auto w-11/12">
+          <div class="py-32 text-center flex flex-col gap-6">
+            <h1 class="font-black text-2xl">World's Biggest University</h1>
+            <p>
+              Making website is now one of the easiest thing in the world. You
+              just need to learn HTML, CSS, Javascript and you are good to go.
+            </p>
+
+            <!-- CTA -->
+            <div class="self-center relative">
+              <a
+                class="inline-block font-semibold border py-2 px-8 z-10 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0 after:bg-blue-700 after:-z-10 after:duration-500 hover:after:h-full"
+                href=""
+                >Visit Us to Know More</a
+              >
+              <span
+                class="absolute z-20 left-0 bg-white h-0.5 w-10 -translate-x-1/2 top-1/2 -translate-y-1/2"
+              >
+              </span>
+              <span
+                class="absolute z-20 right-0 bg-white h-0.5 w-10 translate-x-1/2 top-1/2 -translate-y-1/2"
+              >
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <main>
+      <!-- COURSES SECTION -->
+      <section>
+        <!-- SECTION-CONTAINER -->
+        <div class="max-w-5xl mx-auto w-10/12">
+          <div class="py-28 text-center grid gap-12">
+            <div class="flex flex-col gap-4">
+              <h2 class="font-bold text-2xl">Courses We Offer</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, quia?
+              </p>
+            </div>
+
+            <!-- COURSES-AREA -->
+            <div class="grid gap-4 lg:grid-cols-3 lg:gap-8">
+              <div
+                class="bg-blue-200 p-6 flex flex-col gap-2 cursor-pointer duration-500 hover:-translate-y-2"
+              >
+                <h3 class="font-bold text-lg">Basic</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                  dolorum aspernatur laboriosam perferendis saepe maxime?
+                  Laborum consequatur earum sequi beatae nam at voluptas
+                  similique, consectetur quidem. Reprehenderit cum eveniet
+                  provident? Unde qui corporis! Maiores,
+                </p>
+              </div>
+              <div
+                class="bg-blue-200 p-6 flex flex-col gap-2 cursor-pointer duration-500 hover:-translate-y-2"
+              >
+                <h3 class="font-bold text-lg">Intermediate</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                  dolorum aspernatur laboriosam perferendis saepe maxime?
+                  Laborum consequatur earum sequi beatae nam at voluptas
+                  similique, consectetur quidem. Reprehenderit cum eveniet
+                  provident? Unde qui corporis! Maiores,
+                </p>
+              </div>
+              <div
+                class="bg-blue-200 p-6 flex flex-col gap-2 cursor-pointer duration-500 hover:-translate-y-2"
+              >
+                <h3 class="font-bold text-lg">Advanced</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                  dolorum aspernatur laboriosam perferendis saepe maxime?
+                  Laborum consequatur earum sequi beatae nam at voluptas
+                  similique, consectetur quidem. Reprehenderit cum eveniet
+                  provident? Unde qui corporis! Maiores,
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GLOBAL UNI SECTION-->
+      <section>
+        <!-- SECTION-CONTAINER -->
+        <div class="max-w-5xl mx-auto w-10/12">
+          <div class="py-28 text-center grid gap-12">
+            <div class="flex flex-col gap-4">
+              <h2 class="text-2xl font-bold">Our Global Campus</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos tempore deserunt blanditiis, minus possimus cum
+                magnam eaque quis quo porro?
+              </p>
+            </div>
+            <!-- GLOBAL AREA-->
+            <div class="grid gap-4 lg:grid-cols-3 lg:gap-8">
+              <!-- UK -->
+              <div class="cursor-pointer h-[380px] relative group z-10">
+                <img
+                  class="w-full h-full object-cover"
+                  src="images/uk.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute z-10 left-0 top-0 bg-blue-700/0 h-full w-full duration-500 group-hover:bg-blue-700/50"
+                >
+                  <p
+                    class="font-bold text-white absolute bottom-0 left-1/2 -translate-x-1/2 duration-500 opacity-0 group-hover:bottom-1/2 group-hover:opacity-100"
+                  >
+                    LONDON
+                  </p>
+                </div>
+              </div>
+              <!-- NYC -->
+              <div class="cursor-pointer h-[380px] relative group z-10">
+                <img
+                  class="w-full h-full object-cover"
+                  src="images/nyc.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute z-10 left-0 top-0 bg-blue-700/0 h-full w-full duration-500 group-hover:bg-blue-700/50"
+                >
+                  <p
+                    class="font-bold text-white absolute bottom-0 left-1/2 -translate-x-1/2 duration-500 opacity-0 group-hover:bottom-1/2 group-hover:opacity-100"
+                  >
+                    NEW YORK
+                  </p>
+                </div>
+              </div>
+              <!-- WDC-->
+              <div class="cursor-pointer h-[380px] relative group z-10">
+                <img
+                  class="w-full h-full object-cover"
+                  src="images/washington.jpg"
+                  alt=""
+                />
+                <div
+                  class="absolute z-10 left-0 top-0 bg-blue-700/0 h-full w-full duration-500 group-hover:bg-blue-700/50"
+                >
+                  <p
+                    class="font-bold text-white absolute bottom-0 left-1/2 -translate-x-1/2 duration-500 opacity-0 group-hover:bottom-1/2 group-hover:opacity-100"
+                  >
+                    WASHINGTON DC
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FACILITIES SECTION -->
+      <section>
+        <!-- FACILITIES CONTAINER-->
+        <div class="max-w-5xl mx-auto w-10/12">
+          <div class="py-28 grid gap-12">
+            <div class="text-center flex flex-col gap-4">
+              <h2 class="font-bold text-2xl">Our Facilities</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, nisi!
+              </p>
+            </div>
+            <!-- FACILITIES AREA-->
+            <div class="grid gap-16 lg:grid-cols-3 md:gap-12">
+              <!-- FACILITIES -->
+              <div class="flex flex-col gap-4">
+                <div
+                  class="cursor-pointer h-[380px] overflow-hidden lg:h-[300px]"
+                >
+                  <img
+                    class="w-full h-full object-cover duration-500 hover:scale-110"
+                    src="images/library.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="grid gap-2">
+                  <h3 class="font-bold text-xl">World Class Library</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam praesentium dicta quasi omnis esse recusandae?
+                  </p>
+                </div>
+              </div>
+              <!-- FACILITIES -->
+              <div class="flex flex-col gap-4">
+                <div
+                  class="cursor-pointer h-[380px] overflow-hidden lg:h-[300px]"
+                >
+                  <img
+                    class="w-full h-full object-cover duration-500 hover:scale-110"
+                    src="images/play-ground.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="grid gap-2">
+                  <h3 class="font-bold text-xl">World Class Library</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam praesentium dicta quasi omnis esse recusandae?
+                  </p>
+                </div>
+              </div>
+              <!-- FACILITIES -->
+              <div class="flex flex-col gap-4">
+                <div
+                  class="cursor-pointer h-[380px] overflow-hidden lg:h-[300px]"
+                >
+                  <img
+                    class="w-full h-full object-cover duration-500 hover:scale-110"
+                    src="images/canteen.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="grid gap-2">
+                  <h3 class="font-bold text-xl">World Class Library</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aperiam praesentium dicta quasi omnis esse recusandae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIAL SECTION-->
+      <section>
+        <!-- TESTIMONIAL CONTAINER-->
+        <div class="max-w-5xl mx-auto w-10/12">
+          <div class="py-28 grid gap-12">
+            <div class="text-center grid gap-4">
+              <h2 class="font-bold text-2xl">What Our Student Says</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae sequi fugit quod!
+              </p>
+            </div>
+            <!-- TESTIMONIAL AREA -->
+            <div class="grid gap-4">
+              <div class="bg-blue-200 p-4 flex gap-8">
+                <div class="h-16 w-16 shrink-0">
+                  <img
+                    class="w-full h-full rounded-full border-2 border-white object-cover"
+                    src="images/man-face.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="grid gap-4">
+                  <blockquote>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ad et eos fuga delectus ipsa, in, nisi repudiandae
+                    doloremque cumque consequatur, quis impedit suscipit quia
+                    molestias.""
+                  </blockquote>
+                  <cite class="font-bold">- James Andre</cite>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-blue-200 p-4 flex gap-8">
+                <div class="h-16 w-16 shrink-0">
+                  <img
+                    class="w-full h-full rounded-full border-2 border-white object-cover"
+                    src="images/woman-face.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="grid gap-4">
+                  <blockquote>
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ad et eos fuga delectus ipsa, in doloremque cumque
+                    consequatur, quis impedit suscipit quia molestias.""
+                  </blockquote>
+                  <cite class="font-bold">- Hella Mars</cite>
+                  <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- COVER SECTION -->
+      <section>
+        <!-- COVER CONTAINER -->
+        <div class="max-w-5xl mx-auto w-10/12">
+          <div class="py-28">
+            <div
+              class="py-28 px-5 grid gap-8 bg-[url('images/cover-2.jpg')] bg-cover text-white text-center bg-gray-600 bg-blend-multiply lg:bg-left"
+            >
+              <h2 class="capitalize font-bold text-2xl">
+                enroll for our various online courses anywhere from the world
+              </h2>
+              <div class="relative justify-self-center">
+                <a
+                  class="inline-block font-bold border py-2 px-8 z-10 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0 after:bg-blue-700 after:-z-10 after:duration-500 hover:after:h-full"
+                  href=""
+                  >Visit Us to Know More</a
+                >
+                <span
+                  class="absolute z-20 left-0 bg-white h-0.5 w-10 -translate-x-1/2 top-1/2 -translate-y-1/2"
+                >
+                </span>
+                <span
+                  class="absolute z-20 right-0 bg-white h-0.5 w-10 translate-x-1/2 top-1/2 -translate-y-1/2"
+                >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <!-- FOOTER CONTAINER -->
+      <div class="max-w-5xl mx-auto w-10/12">
+        <div class="py-28 text-center grid gap-8">
+          <div class="grid gap-4">
+            <h2 class="text-2xl font-bold">About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+              excepturi tenetur sit, modi mollitia nobis provident incidunt!
+              Tenetur, est iusto.
+            </p>
+          </div>
+          <div class="flex justify-center gap-4">
+            <i
+              class="fa-brands fa-facebook text-blue-700 text-xl cursor-pointer font-black duration-500 hover:text-blue-400"
+            ></i>
+            <i
+              class="fa-brands fa-twitter text-blue-700 text-xl cursor-pointer font-black duration-500 hover:text-blue-400"
+            ></i>
+            <i
+              class="fa-brands fa-tiktok text-blue-700 text-xl cursor-pointer duration-500 font-black hover:text-blue-400"
+            ></i>
+            <i
+              class="fa-brands fa-instagram text-blue-700 text-xl cursor-pointer duration-500 font-black hover:text-blue-400"
+            ></i>
+            <i
+              class="fa-brands fa-youtube text-blue-700 text-xl cursor-pointer duration-500 font-black hover:text-blue-400"
+            ></i>
+            <i
+              class="fa-brands fa-whatsapp text-blue-700 text-xl cursor-pointer duration-500 font-black hover:text-blue-400"
+            ></i>
+            <i
+              class="fa-brands fa-linkedin text-blue-700 text-xl cursor-pointer duration-500 font-black hover:text-blue-400"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
